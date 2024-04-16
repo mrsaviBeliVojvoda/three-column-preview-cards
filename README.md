@@ -1,6 +1,8 @@
-# three-column-preview-cards
-It is Fronend Mentor's challenge.
+# React + Vite
 
-Challenge is easy but I wanted to use React+Vite+tailwind for it.
-Main idea was to practice these tools solving not so hard problems.
-Maybe it is not perfect but I am satisfied with the final result.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

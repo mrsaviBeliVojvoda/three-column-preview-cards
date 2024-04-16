@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply text-base bg-[#f2f2f2];
+  }
+
+  body {
+    @apply mt-10 mb-10 flex justify-center;
+  }
+}
+
+.btn {
+  font-family: 'Lexend Deca', sans-serif;
+  @apply w-36 h-12 bg-[#f2f2f2] rounded-full;
+}
+
+.card {
+  @apply w-300 h-500 p-12;
+}
+
+.f-row {
+  @apply flex lg:flex-row flex-col;
+}
+
+img {
+  @apply mb-12;
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', sans-serif;
+  @apply mb-12 text-[#f2f2f2] text-4xl font-bold uppercase;
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  @apply mb-16 text-[#ffffffbf] text-[15px];
+}
